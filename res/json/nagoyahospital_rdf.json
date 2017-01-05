@@ -1,0 +1,468 @@
+{
+
+	"http://www.city.nagoya.jp/kenkofukushi/page/0000000268.html" : { 
+		"http://linkdata.org/property/rdf1s268i#%E7%97%85%E9%99%A2%E5%90%8D" : [ 
+			{ "value" : "名古屋市医師会急病センター",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E4%BD%8F%E6%89%80" : [ 
+			{ "value" : "東区葵一丁目4-38",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%B7%AF%E5%BA%A6" : [ 
+			{ "value" : "35.173567",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%B5%8C%E5%BA%A6" : [ 
+			{ "value" : "136.921288",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%97%85%E9%99%A2URL" : [ 
+			{ "value" : "http://www.city.nagoya.jp/kenkofukushi/page/0000000268.html",
+			  "type" : "uri"  
+			}
+		]
+	} ,
+	"http://www.city.nagoya.jp/kenkofukushi/page/0000000181.html" : { 
+		"http://linkdata.org/property/rdf1s268i#%E7%97%85%E9%99%A2%E5%90%8D" : [ 
+			{ "value" : "千種区休日急病診療所",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E4%BD%8F%E6%89%80" : [ 
+			{ "value" : "千種区今池五丁目4-15",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%B7%AF%E5%BA%A6" : [ 
+			{ "value" : "35.167991",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%B5%8C%E5%BA%A6" : [ 
+			{ "value" : "136.940062",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%97%85%E9%99%A2URL" : [ 
+			{ "value" : "http://www.city.nagoya.jp/kenkofukushi/page/0000000181.html",
+			  "type" : "uri"  
+			}
+		]
+	} ,
+	"http://www.city.nagoya.jp/kenkofukushi/page/0000000203.html" : { 
+		"http://linkdata.org/property/rdf1s268i#%E7%97%85%E9%99%A2%E5%90%8D" : [ 
+			{ "value" : "北区休日急病診療所",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E4%BD%8F%E6%89%80" : [ 
+			{ "value" : "北区下飯田町3-3-2",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%B7%AF%E5%BA%A6" : [ 
+			{ "value" : "35.196807",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%B5%8C%E5%BA%A6" : [ 
+			{ "value" : "136.927643",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%97%85%E9%99%A2URL" : [ 
+			{ "value" : "http://www.city.nagoya.jp/kenkofukushi/page/0000000203.html",
+			  "type" : "uri"  
+			}
+		]
+	} ,
+	"http://www.city.nagoya.jp/kenkofukushi/page/0000000226.html" : { 
+		"http://linkdata.org/property/rdf1s268i#%E7%97%85%E9%99%A2%E5%90%8D" : [ 
+			{ "value" : "西区休日急病診療所",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E4%BD%8F%E6%89%80" : [ 
+			{ "value" : "西区城西四丁目15-10",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%B7%AF%E5%BA%A6" : [ 
+			{ "value" : "35.191242",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%B5%8C%E5%BA%A6" : [ 
+			{ "value" : "136.893088",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%97%85%E9%99%A2URL" : [ 
+			{ "value" : "http://www.city.nagoya.jp/kenkofukushi/page/0000000226.html",
+			  "type" : "uri"  
+			}
+		]
+	} ,
+	"http://www.city.nagoya.jp/kenkofukushi/page/0000000228.html" : { 
+		"http://linkdata.org/property/rdf1s268i#%E7%97%85%E9%99%A2%E5%90%8D" : [ 
+			{ "value" : "中村区休日急病診療所",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E4%BD%8F%E6%89%80" : [ 
+			{ "value" : "中村区則武本通2-80-2",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%B7%AF%E5%BA%A6" : [ 
+			{ "value" : "35.174527",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%B5%8C%E5%BA%A6" : [ 
+			{ "value" : "136.872626",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%97%85%E9%99%A2URL" : [ 
+			{ "value" : "http://www.city.nagoya.jp/kenkofukushi/page/0000000228.html",
+			  "type" : "uri"  
+			}
+		]
+	} ,
+	"http://www.city.nagoya.jp/kenkofukushi/page/0000000237.html" : { 
+		"http://linkdata.org/property/rdf1s268i#%E7%97%85%E9%99%A2%E5%90%8D" : [ 
+			{ "value" : "昭和区休日急病診療所",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E4%BD%8F%E6%89%80" : [ 
+			{ "value" : "昭和区川名町2-4-4",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%B7%AF%E5%BA%A6" : [ 
+			{ "value" : "35.15526",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%B5%8C%E5%BA%A6" : [ 
+			{ "value" : "136.941595",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%97%85%E9%99%A2URL" : [ 
+			{ "value" : "http://www.city.nagoya.jp/kenkofukushi/page/0000000237.html",
+			  "type" : "uri"  
+			}
+		]
+	} ,
+	"http://www.city.nagoya.jp/kenkofukushi/page/0000000241.html" : { 
+		"http://linkdata.org/property/rdf1s268i#%E7%97%85%E9%99%A2%E5%90%8D" : [ 
+			{ "value" : "瑞穂区休日急病診療所",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E4%BD%8F%E6%89%80" : [ 
+			{ "value" : "瑞穂区師長町9-3",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%B7%AF%E5%BA%A6" : [ 
+			{ "value" : "35.12458",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%B5%8C%E5%BA%A6" : [ 
+			{ "value" : "136.945021",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%97%85%E9%99%A2URL" : [ 
+			{ "value" : "http://www.city.nagoya.jp/kenkofukushi/page/0000000241.html",
+			  "type" : "uri"  
+			}
+		]
+	} ,
+	"http://www.city.nagoya.jp/kenkofukushi/page/0000000244.html" : { 
+		"http://linkdata.org/property/rdf1s268i#%E7%97%85%E9%99%A2%E5%90%8D" : [ 
+			{ "value" : "熱田区休日急病診療所",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E4%BD%8F%E6%89%80" : [ 
+			{ "value" : "熱田区伝馬一丁目5-4",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%B7%AF%E5%BA%A6" : [ 
+			{ "value" : "35.120743",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%B5%8C%E5%BA%A6" : [ 
+			{ "value" : "136.908125",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%97%85%E9%99%A2URL" : [ 
+			{ "value" : "http://www.city.nagoya.jp/kenkofukushi/page/0000000244.html",
+			  "type" : "uri"  
+			}
+		]
+	} ,
+	"http://www.city.nagoya.jp/kenkofukushi/page/0000000249.html" : { 
+		"http://linkdata.org/property/rdf1s268i#%E7%97%85%E9%99%A2%E5%90%8D" : [ 
+			{ "value" : "中川区休日急病診療所・西部平日夜間急病センター（改築工事中現在地）",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E4%BD%8F%E6%89%80" : [ 
+			{ "value" : "中川区高畑一丁目222",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%B7%AF%E5%BA%A6" : [ 
+			{ "value" : "35.141108",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%B5%8C%E5%BA%A6" : [ 
+			{ "value" : "136.855391",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%97%85%E9%99%A2URL" : [ 
+			{ "value" : "http://www.city.nagoya.jp/kenkofukushi/page/0000000249.html",
+			  "type" : "uri"  
+			}
+		]
+	} ,
+	"http://www.city.nagoya.jp/kenkofukushi/page/0000000253.html" : { 
+		"http://linkdata.org/property/rdf1s268i#%E7%97%85%E9%99%A2%E5%90%8D" : [ 
+			{ "value" : "港区休日急病診療所",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E4%BD%8F%E6%89%80" : [ 
+			{ "value" : "港区港楽二丁目6-18",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%B7%AF%E5%BA%A6" : [ 
+			{ "value" : "35.104003",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%B5%8C%E5%BA%A6" : [ 
+			{ "value" : "136.885064",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%97%85%E9%99%A2URL" : [ 
+			{ "value" : "http://www.city.nagoya.jp/kenkofukushi/page/0000000253.html",
+			  "type" : "uri"  
+			}
+		]
+	} ,
+	"http://www.city.nagoya.jp/kenkofukushi/page/0000000255.html" : { 
+		"http://linkdata.org/property/rdf1s268i#%E7%97%85%E9%99%A2%E5%90%8D" : [ 
+			{ "value" : "南区休日急病診療所・南部平日夜間急病センター",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E4%BD%8F%E6%89%80" : [ 
+			{ "value" : "南区西又兵ヱ町4丁目8番地の1",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%B7%AF%E5%BA%A6" : [ 
+			{ "value" : "35.092741",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%B5%8C%E5%BA%A6" : [ 
+			{ "value" : "136.914569",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%97%85%E9%99%A2URL" : [ 
+			{ "value" : "http://www.city.nagoya.jp/kenkofukushi/page/0000000255.html",
+			  "type" : "uri"  
+			}
+		]
+	} ,
+	"http://www.city.nagoya.jp/kenkofukushi/page/0000000258.html" : { 
+		"http://linkdata.org/property/rdf1s268i#%E7%97%85%E9%99%A2%E5%90%8D" : [ 
+			{ "value" : "守山区休日急病診療所・東部平日夜間急病センター",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E4%BD%8F%E6%89%80" : [ 
+			{ "value" : "守山区小幡一丁目3-2",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%B7%AF%E5%BA%A6" : [ 
+			{ "value" : "35.203416",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%B5%8C%E5%BA%A6" : [ 
+			{ "value" : "136.975869",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%97%85%E9%99%A2URL" : [ 
+			{ "value" : "http://www.city.nagoya.jp/kenkofukushi/page/0000000258.html",
+			  "type" : "uri"  
+			}
+		]
+	} ,
+	"http://www.city.nagoya.jp/kenkofukushi/page/0000000261.html" : { 
+		"http://linkdata.org/property/rdf1s268i#%E7%97%85%E9%99%A2%E5%90%8D" : [ 
+			{ "value" : "緑区休日急病診療所",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E4%BD%8F%E6%89%80" : [ 
+			{ "value" : "緑区鳴海町字池上98-5",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%B7%AF%E5%BA%A6" : [ 
+			{ "value" : "35.090643",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%B5%8C%E5%BA%A6" : [ 
+			{ "value" : "136.962995",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%97%85%E9%99%A2URL" : [ 
+			{ "value" : "http://www.city.nagoya.jp/kenkofukushi/page/0000000261.html",
+			  "type" : "uri"  
+			}
+		]
+	} ,
+	"http://www.city.nagoya.jp/kenkofukushi/page/0000000263.html" : { 
+		"http://linkdata.org/property/rdf1s268i#%E7%97%85%E9%99%A2%E5%90%8D" : [ 
+			{ "value" : "名東区休日急病診療所",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E4%BD%8F%E6%89%80" : [ 
+			{ "value" : "名東区丁田町35",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%B7%AF%E5%BA%A6" : [ 
+			{ "value" : "35.178239",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%B5%8C%E5%BA%A6" : [ 
+			{ "value" : "137.00277",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%97%85%E9%99%A2URL" : [ 
+			{ "value" : "http://www.city.nagoya.jp/kenkofukushi/page/0000000263.html",
+			  "type" : "uri"  
+			}
+		]
+	} ,
+	"http://www.city.nagoya.jp/kenkofukushi/page/0000000266.html" : { 
+		"http://linkdata.org/property/rdf1s268i#%E7%97%85%E9%99%A2%E5%90%8D" : [ 
+			{ "value" : "天白区休日急病診療所",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E4%BD%8F%E6%89%80" : [ 
+			{ "value" : "天白区池場二丁目2403",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%B7%AF%E5%BA%A6" : [ 
+			{ "value" : "35.120963",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%B5%8C%E5%BA%A6" : [ 
+			{ "value" : "136.983132",
+			  "type" : "literal",
+			  "lang" : "ja" 
+			}
+		] , 
+		"http://linkdata.org/property/rdf1s268i#%E7%97%85%E9%99%A2URL" : [ 
+			{ "value" : "http://www.city.nagoya.jp/kenkofukushi/page/0000000266.html",
+			  "type" : "uri"  
+			}
+		]
+	}
+}

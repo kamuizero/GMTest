@@ -3,14 +3,19 @@
  */
 $(document).ready(function () {
 
-
-
+    //TODO: Primero, obtener el listado de clinicas del Open Data
+    //TODO: Segundo, cargar una cierta cantidad de esas clinicas como marcadores en el Mapa, limitado por el zoom y coords
+    //TODO: Tercero, cuando se haga click, mostrar la informacion y poner el link a una pagina de edicion de ese punto en el mapa
+    //TODO: Cuarto, pagina de edicion y evaluacion de la clinica y institucion de salud
+    alert("dentro del ready");
+    cargarClinicas();
 });
 
 //Funcion que inicializa el mapa de Google Maps, aqui se podria poner que cargue los elementos del JSON o
 //del repositorio de Open Data
 function initMap() {
     var uluru = {lat: -25.363, lng: 131.044};
+
     var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 4,
         center: uluru
@@ -48,4 +53,50 @@ function initMap() {
     marker.addListener('click', function() {
         infowindow.open(map, marker);
     });
+
+    var features = [
+        {
+            position: new google.maps.LatLng(-31.4039739, 148.5253239),
+            type: 'info'
+        }, {
+            position: new google.maps.LatLng(-33.91539, 151.22820),
+            type: 'info'
+        }, {
+            position: new google.maps.LatLng(-33.91747, 151.22912),
+            type: 'info'
+        }
+    ];
+
+    for (var i = 0, feature; feature = features[i]; i++) {
+        addMarker(feature, map);
+    }
+
+    cargarClinicas();
 }
+
+function addMarker(feature, map) {
+    var marker = new google.maps.Marker({
+        position: feature.position,
+        map: map
+    });
+}
+
+function cargarClinicas(){
+
+    alert('Cargar clinicas');
+    //var url = "http://linkdata.org/api/1/rdf1s4633i/herb_rdf.json";
+    var url = "res/json/nagoyahospital_rdf.json";
+    //TODO: Cambiarlo a la libreria de RDF
+
+    alert(url);
+
+    $.getJSON(url, function (json) {
+        alert("a ");
+        var au = "prueba";
+        alert(json[0].value);
+        $.each(json.list, function (i, fb) {
+            alert(fb.value);
+        });
+    });
+}
+
