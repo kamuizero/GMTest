@@ -48,3 +48,7 @@ footer{
     height: 95%;
     width: 95%;
 }
+
+#infoWindowTitle {
+    text-align: center;
+}

@@ -19,16 +19,19 @@ $(document).ready(function () {
 
 var posicionInicial = {lat: 35.1547072, lng: 136.9613086};
 var map;
+
+var allMarkersData =[];
+var activeInfoWindow;
+
 //////////////////////////////
 
-//Funcion que inicializa el mapa de Google Maps, aqui se podria poner que cargue los elementos del JSON o
-//del repositorio de Open Data
+//Funcion que inicializa el mapa de Google Maps
 function initMap() {
 
     //var uluru = {lat: -25.363, lng: 131.044};
 
     map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 5,
+        zoom: 6,
         //center: uluru,
         center: posicionInicial,
         mapTypeControl: false,
@@ -76,65 +79,24 @@ function initMap() {
     });
     */
 
-    /*var features = [
-        {
-            position: new google.maps.LatLng(-31.4039739, 148.5253239),
-            type: 'info',
-            title: 'Titulo 1',
-            description: 'Descripcion 1'
-
-        }, {
-            position: new google.maps.LatLng(-33.91539, 151.22820),
-            type: 'info',
-            title: 'Titulo 2',
-            description: 'Descripcion 2'
-        }, {
-            position: new google.maps.LatLng(-33.91747, 151.22912),
-            type: 'info',
-            title: 'Titulo 3',
-            description: 'Descripcion 3'
-        }
-    ];
-
-    for (var i = 0, feature; feature = features[i]; i++) {
-        //addMarker(feature, map);
-        addMarkerInfoWindow(feature,map);
-    } */
-
     cargarClinicasv2();
 }
 
-function addMarker(feature, map) {
 
-    var marker = new google.maps.Marker({
-        position: feature.position,
-        map: map
-    });
-
-}
 
 function addMarkerInfoWindow(feature, mapa){
 
-    var contentString = '<div id="content">'+
-        '<div id="siteNotice">'+
-        '</div>'+
-        '<h1 id="firstHeading" class="firstHeading">'+ feature.title +'</h1>'+
-        '<div id="bodyContent">'+
-        '<p></p> ' +
-        '<p>'  + feature.description +
-        ' </p>' +
-        '</div>'+
-        '</div>';
-
-    var infowindow = new google.maps.InfoWindow({
-        content: contentString
-    });
-
     var marker = new google.maps.Marker({
+        description:feature.description,
         position: feature.position,
         map: mapa,
-        title: feature.title
+        title: feature.title,
+        type: feature.type
     });
+
+
+    var infowindow = new google.maps.InfoWindow();
+    infowindow.setContent(crearContenido2(marker));
 
     function toggleBounce () {
         if (marker.getAnimation() != null) {
@@ -144,12 +106,59 @@ function addMarkerInfoWindow(feature, mapa){
         }
     }
 
+    // this part makes the markers clickable
+    google.maps.event.addListener(marker, 'click', function() {
+
+        if(activeInfoWindow != null) activeInfoWindow.close();
+
+        // Open InfoWindow - on click
+        toggleBounce();
+        infowindow.open(map, marker);
+        setTimeout(toggleBounce, 780);
+
+        // Store new open InfoWindow in global variable
+        activeInfoWindow = infowindow;
+
+        //toggleBounce();
+        //setTimeout(toggleBounce, 780);
+    });
+
+    /*
+
     marker.addListener('click', function() {
+        infowindow.close();
         toggleBounce();
         infowindow.open(mapa, marker);
         setTimeout(toggleBounce, 780);
-    });
+    }); */
 
+    //Agregamos el marcador a la lista total
+    allMarkersData.push(marker);
+    return(marker);
+}
+
+function crearContenido2(marker){
+    var html = '<p style="align-content: center"><strong>' + marker.title + '</strong></p><br>' + marker.description +
+        '<br><br>' +
+        'Languages: ' +
+        '<p><a href="clinicReview.html?name=' + marker.title + '">'+
+        'Review clinic</a></p>';
+    return html;
+}
+
+function crearContenido(marker){
+    var contentString = '<div id="content">'+
+        '<div id="siteNotice">'+
+        '</div>'+
+        '<h1 id="firstHeading" class="firstHeading">'+ marker.title +'</h1>'+
+        '<div id="bodyContent">'+
+        '<p></p> ' +
+        '<p>'  + marker.description +
+        ' </p>' +
+        '</div>'+
+        '</div>';
+
+    return contentString;
 }
 
 function cargarClinicasv2(){
@@ -160,7 +169,6 @@ function cargarClinicasv2(){
     var url = "http://linkdata.org/api/1/rdf1s3965i/hospital_list_rdf.json?callback=?";
 
     $.getJSON(url, function(data) {
-        alert('Dentro del getJson');
         var subject_list = Object.keys(data);
         var property_list = Object.keys(data[subject_list[0]]);
         var latNum = 0;
@@ -181,9 +189,9 @@ function cargarClinicasv2(){
         }
 
         if (latNum == 0 || lngNum == 0) {
-            alert("No se encontraron coordenadas");
+            //alert("Unable to load hospital location data");
         } else {
-            alert("Se encontraron coordenadas");
+            //alert("Data loaded successfully");
             //this_data_list.push(iconid);//アイコンのid
             this_data_list.push(subject_list.length); //行数
             this_data_list.push(property_list.length); //列数
@@ -211,7 +219,7 @@ function cargarClinicasv2(){
                 //Creamos el marcador con la data obtenida
                 var clinica = {
                     position: new google.maps.LatLng(Number(this_data_list[j][2]), Number(this_data_list[j][3])),
-                    type: 'info',
+                    type: 'kitakami',
                     title: this_data_list[j][0],
                     description: this_data_list[j][1]
                 }
@@ -231,4 +239,23 @@ function cargarClinicasv2(){
 
 function shortenProperty(thisProperty) {
     return (thisProperty.split("#")[thisProperty.split("#").length - 1])
+}
+
+//Funcion para hacer aparecer y desaparecer los marcadores
+function Markers(type){
+    var newValue = document.getElementById(type).checked;
+    activeInfoWindow.close();
+
+    for (var i=0;i<allMarkersData.length;i++) {
+        if (allMarkersData[i].type==type)  {
+            if (newValue==0) {
+                allMarkersData[i].setVisible(false);
+            }
+            else {
+                allMarkersData[i].setVisible(true);
+
+            }
+        }
+    }
+
 }
